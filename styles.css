@@ -3,6 +3,10 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+:root{
+    --primary-color: #F87171;
+}
+
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -12,3 +16,22 @@ body{
     max-width: 600px;
     margin: auto;
 }
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem; /** It goes from top, right, bottom, left **/
+}
+
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid;
+}
+
+
