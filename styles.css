@@ -53,6 +53,7 @@ hr {
 
 /** navigation **/
 
+
 .navigation {
     background-color: var(--primary-color);
     color: white;
@@ -109,3 +110,29 @@ hr {
 .ow {
     background-color: var(--light-gray);
 }
+
+/** footer **/
+
+.footer{
+    background-color: var(--primary-color);
+    padding: 2rem 0rem;
+    text-align: center;
+    color: white;
+    border-top-right-radius: 1rem;
+}
+
+.footer .link{
+    color: white;
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+.footer li{
+    text-align: justify;
+}
+
+
+
+
