@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,22 +14,25 @@
     <!-- Third way of doing CSS: External Link -->
     <link href="styles.css" rel="stylesheet" />
 </head>
+
 <body>
     <h1>Jay's component library</h1>
-    
-    <p >This is levelZero of neog camp and all my work will be shown on this website.</p>
+
+    <p>This is levelZero of neog camp and all my work will be shown on this website.</p>
     <hr>
     <h2>@typography</h2>
     <h1>This is the biggest heading</h1>
     <h2>This is the second biggest heading</h2>
-    <p >Let me show you the normal text.</p>
+    <p>Let me show you the normal text.</p>
     <p>This will have a <strong>bold</strong> text.</p>
-    <small>This is small</small><hr>
+    <small>This is small</small>
+    <hr>
     <h2>@container</h2>
     <h3>fluid container</h3>
     <div class="container">This is a fluid container and it will go till the end of the page</div>
     <h3>center container</h3>
-    <div class="container container-center">This is centered container and it will go till the specified width</div><hr>
+    <div class="container container-center">This is centered container and it will go till the specified width</div>
+    <hr>
     <h2>@links</h2>
     <a class="link link-primary" href="/">Primary Link</a>
     <a class="link link-secondary" href="/">Secondary link</a>
@@ -56,22 +60,50 @@
     <hr>
     <h2>@nav</h2>
     <nav class="navigation container">
-    <div class="nav-brand">iAmBrand</div>
-    <ul class="list-non-bullet nav-pills">
-        <li class="list-item-inline"><a class="link link-active"  href="/">home</a></li>
-        <li class="list-item-inline"><a class="link" href="/">products</li>
-        <li class="list-item-inline"><a class="link" href="/">about</a></li>
-    </ul>
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline"><a class="link link-active" href="/">home</a></li>
+            <li class="list-item-inline"><a class="link" href="/">products</li>
+            <li class="list-item-inline"><a class="link" href="/">about</a></li>
+        </ul>
     </nav>
     <hr>
     <header class="hero">
         <img class="hero-img" src="images/website.svg" />
         <h1 class="hero-heading">Jay Sharma the <span style="color: var(--primary-color);">web developer</span></h1>
-    </header><hr>
+    </header>
+    <hr>
 
+    <h2>@section</h2>
+    <section class="section">
+        <div class="container container-center">
+            <h1>white section</h1>
+            <p>This will have white background</p>
+        </div>
 
+    </section>
+
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>off white section</h1>
+            <p>This will have gray background</p>
+        </div>
+    </section>
+    <hr>
+
+    <h2>@footer</h2>
+
+    <footer>
+        <div>Some small heading inside footer</div>
+        <ul>
+            <li>socialOne</li>
+            <li>socialTwo</li>
+            <li>socialThree</li>
+        </ul>
+    </footer>
 
 
     <!-- <div style="height:30vh;"></div> -->
 </body>
+
 </html>
